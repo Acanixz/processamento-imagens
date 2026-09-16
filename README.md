@@ -69,3 +69,6 @@ quem esteja rodando o código.
   notebook aberto, clique nos **3 pontinhos (⋯)** no canto superior direito do editor e
   selecione **Colab -> Remove Server** (ou **Reset**, se a opção disponível for essa).
   Depois, repita o passo 4 para conectar em um runtime novo.
+
+  # Importante!
+  É normal que apareça erros sobre bibliotecas faltando, considerando que o intellisense está vendo o código como se fosse a SUA maquina, e não da maquina do colab, só foca em resolver os erros que aparecerem ao executar os blocos de código.
