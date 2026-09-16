@@ -8,6 +8,12 @@ Para rodar os notebooks recomendamos o **VSCode conectado a um runtime do Google
 pois facilita o upload da pasta inteira (incluindo `data/`) para o ambiente, garantindo que
 todos rodem com o **mesmo dataset**, nos **mesmos caminhos relativos**.
 
+# IMPORTANTE
+- **Antes de dar push nos arquivos ipynb, certifique de usar o botão ```Clear All Outputs``` para que o arquivo não estoure o limite de tamanho de 100MB!**
+  - Caso isso aconteça, clone o repositorio novamente e mova os arquivos corrigidos para refazer a commit certa
+
+![Clear All Outputs Exemplo](.github/image-3.png)
+
 ## Pré-requisitos
 
 - [VSCode](https://code.visualstudio.com/) instalado
@@ -70,5 +76,5 @@ quem esteja rodando o código.
   selecione **Colab -> Remove Server** (ou **Reset**, se a opção disponível for essa).
   Depois, repita o passo 4 para conectar em um runtime novo.
 
-  # Importante!
-  É normal que apareça erros sobre bibliotecas faltando, considerando que o intellisense está vendo o código como se fosse a SUA maquina, e não da maquina do colab, só foca em resolver os erros que aparecerem ao executar os blocos de código.
+# Importante!
+- É normal que apareça erros sobre bibliotecas faltando, considerando que o intellisense está vendo o código como se fosse a SUA maquina, e não da maquina do colab, só foca em resolver os erros que aparecerem ao executar os blocos de código.
